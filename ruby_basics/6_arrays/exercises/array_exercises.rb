@@ -1,21 +1,26 @@
 def nil_array(number)
   # return an array containing `nil` the given number of times
+  nil_array(5)
 end
 
 def first_element(array)
   # return the first element of the array
+  first_element.unshift
 end
 
 def third_element(array)
   # return the third element of the array
+  third_element.pop(4)
 end
 
 def last_three_elements(array)
   # return the last 3 elements of the array
+  last_three_elements.pop(-3)
 end
 
 def add_element(array)
   # add an element (of any value) to the array
+  add_element.push(5)
 end
 
 def remove_last_element(array)
