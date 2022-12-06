@@ -38,17 +38,21 @@ def remove_favorite_number(favorite_list)
   number.delete(number)
 
   # Step 2: return the hash (because Step 1 returns the value of the number key)
-  favorite_list
+  favorite_list[number]
 end
 
 def favorite_categories(favorite_list)
   # return the keys of favorite_list
+  favorite_list[movie][color]
 end
 
 def favorite_items(favorite_list)
   # return the values of favorite_list
+  favorite_list.each do |value| puts "#{value}"
+
 end
 
 def merge_favorites(original_list, additional_list)
   # merge the two hashes: original_list and additional_list
+  original_list.merge(additional_list)
 end
